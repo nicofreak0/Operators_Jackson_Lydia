@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("INTEGERS");
             // initializes an integer that multiplies two integers
             int intMult = 8 * 66;
             // initializes an integer that adds two integers
@@ -20,7 +21,7 @@
 
 
 
-
+            Console.WriteLine("SHORTS");
             // initializes a short that multiplies two shorts
             short shortMult = 8 * 66;
             // initializes a short that adds two shorts
@@ -37,7 +38,7 @@
 
 
 
-
+            Console.WriteLine("LONGS");
             // initializes an long that multiplies two long
             long longMult = 8 * 66;
             // initializes an long that adds two long
@@ -54,6 +55,7 @@
 
 
 
+            Console.WriteLine("FLOATS");
             // initializes a float that multiplies two floats
             float floatMult = 8.2f * 66.23f;
             // initializes a float that adds two floats
@@ -69,7 +71,7 @@
             Console.WriteLine($"{floatMult} is greater than {floatAdd}, {isfloatGreater}.");
 
 
-
+            Console.WriteLine("DOUBLES");
             // initializes a double that multiplies two doubles
             double doubleMult = 8.67 * 66.32;
             // initializes a double that adds two doubles
@@ -85,7 +87,7 @@
             Console.WriteLine($"{doubleMult} is greater than {doubleAdd}, {isdoubleGreater}.");
 
 
-
+            Console.WriteLine("DECIMALS");
             // initializes a decimal that multiplies two decimal
             decimal decimalMult = (decimal)(8.32 * 66.43);
             // initializes a decimal that adds two decimal
